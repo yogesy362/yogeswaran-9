@@ -1,0 +1,26 @@
+name: CSS Selector Assignment Autograder
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout student submission
+        uses: actions/checkout@v4
+
+      - name: Install Bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bash
+
+      - name: Convert test.sh to Linux line endings
+        run: |
+          sed -i 's/\r$//' test.sh
+
+      - name: Run Autograder
+        run: |
+          bash test.sh

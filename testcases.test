@@ -1,0 +1,60 @@
+# CSS Selectors Assignment Test Cases
+
+# Total Marks: 50
+
+TEST 1
+Description: Check whether DOCTYPE declaration is present
+Expected: <!DOCTYPE html>
+Marks: 5
+
+TEST 2
+Description: Check whether main element and h1 heading are present
+Expected: <main> and <h1>This Season's Speaker Lineup</h1>
+Marks: 5
+
+TEST 3
+Description: Check whether universal selector is implemented
+Expected: * { margin: .5em 1em; }
+Marks: 5
+
+TEST 4
+Description: Check whether main element selector is implemented
+Expected: main { border: 2px solid black; padding: 1em; }
+Marks: 5
+
+TEST 5
+Description: Check whether h1 selector is implemented
+Expected: h1 { font-family: Arial, sans-serif; }
+Marks: 5
+
+TEST 6
+Description: Check whether p selector is implemented
+Expected: p { margin-left: 3em; }
+Marks: 5
+
+TEST 7
+Description: Check whether ID selector is implemented
+Expected: #copyright { font-size: 80%; }
+Marks: 5
+
+TEST 8
+Description: Check whether blue class selector is implemented
+Expected: .blue { color: blue; }
+Marks: 5
+
+TEST 9
+Description: Check whether right class selector is implemented
+Expected: .right { text-align: right; }
+Marks: 5
+
+TEST 10
+Description: Check required speaker names and class/id attributes
+Expected:
+Jeffrey Toobin
+Andrew Ross Sorkin
+class="blue"
+id="copyright"
+class="blue right"
+Marks: 5
+
+TOTAL MARKS: 50
