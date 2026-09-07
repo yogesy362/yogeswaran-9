@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors - Element, ID and Class</title>
+
+    <style>
+        
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        
+        p {
+            color: darkblue;
+            font-size: 18px;
+        }
+
+        
+        #heading {
+            color: red;
+            background-color: lightyellow;
+            text-align: center;
+            padding: 15px;
+        }
+
+        
+        .highlight {
+            color: green;
+            font-weight: bold;
+            background-color: lightgreen;
+            padding: 5px;
+        }
+
+        .box {
+            border: 2px solid blue;
+            padding: 15px;
+            margin: 10px;
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <h1 id="heading">CSS Selectors Example</h1>
+
+    
+    <p>This paragraph is styled using an element selector.</p>
+
+    <p>
+        CSS selectors are used to select HTML elements for styling.
+    </p>
+
+   
+    <h2 class="highlight">Class Selector</h2>
+
+    <p class="highlight">
+        This paragraph uses the highlight class.
+    </p>
+
+    <div class="box">
+        <h3>Universal Selector</h3>
+        <p>
+            The universal selector <b>*</b> applies common styles
+            to all elements on the webpage.
+        </p>
+    </div>
+
+</body>
+</html>
 
